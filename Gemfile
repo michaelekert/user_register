@@ -63,3 +63,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "dry-monads"
+
+gem "phlex-rails", "~> 2.3"
