@@ -67,3 +67,7 @@ end
 gem "dry-monads"
 
 gem "phlex-rails", "~> 2.3"
+
+gem "bcrypt"
+
+gem "jwt"
