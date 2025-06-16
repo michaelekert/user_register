@@ -1,0 +1,9 @@
+<h1>Witaj, <%= @user.name %>!</h1>
+
+<p>Dziękujemy za rejestrację.</p>
+
+<p>Kliknij w poniższy link, aby potwierdzić swoje konto:</p>
+
+<p><%= link_to 'Potwierdź konto', @confirmation_url %></p>
+
+<p>Jeśli nie rejestrowałeś się na naszej stronie, zignoruj tę wiadomość.</p>
